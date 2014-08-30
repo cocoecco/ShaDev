@@ -115,6 +115,8 @@ var SampleApp = function() {
         self.createRoutes();
         self.app = express.createServer();
 
+        self.app.use('/resources', express.static(__dirname+'/Resources')); //Add static folder
+        
         //  Add handlers for the app (from the routes).
         for (var r in self.routes) {
             self.app.get(r, self.routes[r]);
