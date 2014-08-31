@@ -8,13 +8,18 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     
     <script>
-    $('#slideout_toggle').toggle(function(){
-    $(this).html('Close');
-    $('#slideout_contents').animate({'left': '0px'});
-},function(){
-    $(this).html('Open');
-    $('#slideout_contents').animate({'left': '-100px'});
-});
+    function enterFromLeft() {
+    $.ajax({
+    url: "/Resources/pages/protopage.html",
+    dataType: "html",
+    success: function(data) {
+        $("#fullPageDiv").fadeOut(function() {
+            $(this).html(data).slideDown();
+        });
+    }
+    });     
+    }
+
     </script>
     
 </head>
@@ -25,6 +30,7 @@
     <div id="midDiv">
         <div id="midLeft">
             <p>Prototype Development</p>
+            <a href="javascript:enterFromLeft();">AAA</a>
             <a href="/Resources/pages/protopage.html" data-transition="slide"><img src="/Resources/img/prototypeicon.png"></img></a>
         </div>
         <div id="midRight">
@@ -33,15 +39,6 @@
         </div>
     </div>
     <div id="lowDiv">Low</div>
-</div>
-
-<div id="slideout">
-    <div id="slideout_contents">
-        <a id="slideout_toggle">Open</a>
-        <h1>Header</h1>
-        <p>Some text.</p>
-        <p>Some text.</p>
-    </div>
 </div>
 
 

@@ -56,28 +56,3 @@ body{
     width: 100%;
     height: 10%;
 }
-
-
-
-
-/*Left Side Slide*/
-
-#slideout, #slideout_contents, #slideout_toggle {
-    background: #000; /* to see it on a blank page */
-    color: #fff;
-    position: absolute;
-    top: 0px;
-}
-#slideout_contents {
-    left: -100px; /* adjust these */
-    width: 100px;
-    height: 300px;
-}
-#slideout_toggle {
-    display: block;
-    text-decoration: none;
-    top: 50%;
-    left: 100px;
-    width: 50px;
-    text-align: center;
-}
