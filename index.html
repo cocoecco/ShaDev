@@ -13,7 +13,7 @@
     url: "/Resources/pages/protopage.html",
     dataType: "html",
     success: function(data) { 
-        $('#midRight').hide();
+        $('#midRight').toggle("slide", { direction: "left" }, 1000);
     }
     });     
     }
