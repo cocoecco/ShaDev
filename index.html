@@ -13,9 +13,9 @@
     url: "/Resources/pages/protopage.html",
     dataType: "html",
     success: function(data) {
-        $("#fullPageDiv").fadeOut(function() {
+        $("#fullPageDiv").show("slide", { direction: "right" }, 1000), function() {
             $(this).html(data).slideDown();
-        });
+        };
     }
     });     
     }
