@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <title>SharDev.com</title>
     <link rel="stylesheet" type="text/css" href="/Resources/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <script>
+    $('#slideout_toggle').toggle(function(){
+    $(this).html('Close');
+    $('#slideout_contents').animate({'left': '0px'});
+},function(){
+    $(this).html('Open');
+    $('#slideout_contents').animate({'left': '-100px'});
+});
+    </script>
     
 </head>
 <body>
-    
+
 <div id="fullPageDiv">
     <div id="topDiv">Top</div>
     <div id="midDiv">
@@ -26,6 +32,16 @@
     </div>
     <div id="lowDiv">Low</div>
 </div>
-    
+
+<div id="slideout">
+    <div id="slideout_contents">
+        <a id="slideout_toggle">Open</a>
+        <h1>Header</h1>
+        <p>Some text.</p>
+        <p>Some text.</p>
+    </div>
+</div>
+
+
 </body>
 </html>
