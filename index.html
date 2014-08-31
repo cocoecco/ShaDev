@@ -13,12 +13,20 @@
     url: "/Resources/pages/protopage.html",
     dataType: "html",
     success: function(data) { 
-         $( "#fullPageDiv" ).animate({
-             opacity: 0.25,
-             left: "+90%"
-         }, 500, function() {
+        $( "#fullPageDiv" ).animate({
+            opacity: 0.25,
+            left: "+90%"
+        }, 500, function() {
              // Animation complete.
-         });
+        });
+        
+        $(this).html(data).show();
+        $( this ).animate({
+             left: "+90%"
+        }, 500, function() {
+             // Animation complete.
+        });
+        
     }
     });     
     }
