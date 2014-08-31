@@ -26,7 +26,6 @@ body{
     height: 100%;
     background-color:#4682B4;
     left: 0;
-    float: left;
     display: inline-block;
     vertical-align: top; /* this line added in edit */
 }
@@ -37,7 +36,6 @@ body{
     height: 100%; 
     background-color: blue;
     left: -100%;
-    float: left;
     display: inline-block;
     vertical-align: top; /* this line added in edit */
 }
