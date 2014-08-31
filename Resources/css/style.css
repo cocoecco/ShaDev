@@ -40,6 +40,7 @@ html, body {
 }
 
 
+/* PAGE ONE STYLE */
 
 #fullPageDiv > #pageone > #pageOneContentDiv {
     background-color: yellow;
@@ -54,6 +55,9 @@ html, body {
     height: 100%;
     float: left; 
 }
+
+/* PAGE TWO STYLE */
+
 
 #fullPageDiv > #pagetwo > #topDiv {
     width: 100%;
@@ -92,4 +96,23 @@ html, body {
     height: 10%;
     background-color: black;
 }
+
+
+/* PAGE THREE STYLE */
+
+
+#fullPageDiv > #pagethree > #pageThreeContentDiv {
+    background-color: yellow;
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+
+#fullPageDiv > #pagethree > #pageThreeMenuDiv {
+    background-color: green;
+    width: 10%;
+    height: 100%;
+    float: left; 
+}
+
 

@@ -17,3 +17,36 @@ function showPageOne() {
         }); 
     }, 20); 
 }
+
+function centerFromPageOne() {
+    setTimeout(function(){
+        $( "#fullPageDiv" ).animate({
+            left: "+100%"
+        }, 500, function() {
+         // Animation complete.
+        }); 
+    }, 20); 
+}
+
+
+function showPageThree() {
+    setTimeout(function(){
+        $( "#fullPageDiv" ).animate({
+            left: "+100%"
+        }, 500, function() {
+         // Animation complete.
+        }); 
+    }, 20); 
+}
+
+
+function centerFromPageThree() {
+    setTimeout(function(){
+        $( "#fullPageDiv" ).animate({
+            left: "-100%"
+        }, 500, function() {
+         // Animation complete.
+        }); 
+    }, 20); 
+}
+
