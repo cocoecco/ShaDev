@@ -13,7 +13,8 @@
     url: "/Resources/pages/protopage.html",
     dataType: "html",
     success: function(data) { 
-        $('#midDiv').animate({"margin-right": '+=200'});
+        alert('aaa');
+        $('#midDiv').hide("slide", { direction: "right" }, 1200);
     }
     });     
     }
