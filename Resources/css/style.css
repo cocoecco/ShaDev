@@ -16,18 +16,18 @@ html, body {
 }
 
 
-.centerPage, .leftPage {
+#centerPage, #leftPage {
     width: 100%;
     height: 100%;
     display: inline-block;
     vertical-align: top; /* this line added in edit */
     font-size: initial;
 }
-.centerPage {
-    background: #4682B4;
+#centerPage {
+    background-color: #4682B4;
 }
-.leftPage {
-    background: red;
+#leftPage {
+    background-color: red;
 }
 
 
