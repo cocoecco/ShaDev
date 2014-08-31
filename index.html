@@ -13,7 +13,12 @@
     url: "/Resources/pages/protopage.html",
     dataType: "html",
     success: function(data) { 
-        $('#midRight').toggle("slide", { direction: "left" }, 1000);
+         $( "#midDiv" ).animate({
+             opacity: 0.25,
+             left: "+=50"
+         }, 5000, function() {
+             // Animation complete.
+         });
     }
     });     
     }
