@@ -11,7 +11,7 @@ function enterFromLeft() {
 function showPageOne() {
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
-            left: "-90%"
+            left: "-100%"
         }, 500, function() {
          // Animation complete.
         }); 

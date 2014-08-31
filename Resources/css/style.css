@@ -30,16 +30,30 @@ html, body {
     background-color: #4682B4;
 }
 #pageone {
-    background-color: green;
+    background-color: #4682B4;
 }
 #pagetwo {
-    background-color: yellow;
+    background-color: #4682B4;
 }
 #pagethree {
-    background-color: blue;
+    background-color: #4682B4;
 }
 
 
+
+#fullPageDiv > #pageone > #pageOneContentDiv {
+    background-color: yellow;
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+
+#fullPageDiv > #pageone > #pageOneMenuDiv {
+    background-color: green;
+    width: 10%;
+    height: 100%;
+    float: left; 
+}
 
 #fullPageDiv > #pagetwo > #topDiv {
     width: 100%;
