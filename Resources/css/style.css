@@ -64,6 +64,7 @@ body{
     position: absolute;  
     background-color: blue;
     left: -100%;
+    float: left;
 }
 
 
