@@ -12,8 +12,8 @@
     $.ajax({
     url: "/Resources/pages/protopage.html",
     dataType: "html",
-    success: function(data) {        
-        $(this).show("slide", { direction: "left" }, 1000);
+    success: function(data) { 
+        $('#midDiv').animate({"margin-right": '+=200'});
     }
     });     
     }
