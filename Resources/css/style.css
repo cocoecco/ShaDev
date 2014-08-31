@@ -17,34 +17,38 @@ body{
 }
 
 #fullPageDiv {
-    width: 100%;
     height: 100%; 
     position: absolute;
 }
 
-#fullPageDiv > #topDiv {
+#fullPageDiv > #centerPage {
+    width: 100%; 
+    float: left;
+}
+
+#fullPageDiv > #centerPage > #topDiv {
     width: 100%;
     height: 50%;
 }
 
-#fullPageDiv > #midDiv {
+#fullPageDiv > #centerPage > #midDiv {
     width: 100%;
     height: 40%;
 }
 
-#fullPageDiv > #midDiv img {
+#fullPageDiv > #centerPage > #midDiv img {
     width: 120px;
     height: auto;
 }
 
-#fullPageDiv > #midDiv > #midLeft {
+#fullPageDiv > #centerPage > #midDiv > #midLeft {
     float:left;
     width: 50%;
     height: 100%;
     text-align: center;
 }
 
-#fullPageDiv > #midDiv > #midRight {
+#fullPageDiv > #centerPage > #midDiv > #midRight {
     float:left;
     width: 50%;
     height: 100%;
@@ -52,13 +56,13 @@ body{
 }
 
 
-#fullPageDiv > #lowDiv {
+#fullPageDiv > #centerPage > #lowDiv {
     width: 100%;
     height: 10%;
 }
 
 
-#leftPage {
+#fullPageDiv > #centerPage > #leftPage {
     width: 100%;
     height: 100%; 
     position: absolute;  
@@ -66,6 +70,7 @@ body{
     left: -100%;
     float: left;
 }
+
 
 
 
