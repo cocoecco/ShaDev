@@ -1,4 +1,4 @@
-html, body {height: 100%;}
+html, body {height: 100%;,overflow-x: hidden;}
 
 html {
     background-color:#4682B4;
