@@ -8,18 +8,20 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     
     <script>
-    function enterFromLeft() {
-        $( "#fullPageDiv" ).animate({
-            left: "-90%"
-        }, 500, function() {
-             // Animation complete.
-        }); 
-    }
-
-    function delayThenEnter() {
-        setTimeout( enterFromLeft, 2000 );   
-    }
         
+        
+        
+    function enterFromLeft() {
+        setTimeout(function(){
+            $( "#fullPageDiv" ).animate({
+                left: "-90%"
+            }, 500, function() {
+             // Animation complete.
+            }); 
+        }, 1000);
+        
+
+    }        
     </script>
     
     
@@ -29,7 +31,7 @@
 
 <div id="fullPageDiv">
     <div id="centerPage">
-    <a href="javascript:delayThenEnter();">Click Here To Slide</a>
+    <a href="javascript:enterFromLeft();">Click Here To Slide</a>
         
 
     </div>
