@@ -18,7 +18,7 @@ html, body {
 }
 
 
-#centerPage, #leftPage {
+#introPage, #pageone, #pagetwo, #pagethree {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -29,8 +29,14 @@ html, body {
 #centerPage {
     background-color: #4682B4;
 }
-#leftPage {
-    background-color: red;
+#pageone {
+    background-color: green;
+}
+#pagetwo {
+    background-color: yellow;
+}
+#pagethree {
+    background-color: blue;
 }
 
 

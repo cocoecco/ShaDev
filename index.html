@@ -14,7 +14,7 @@
     function enterFromLeft() {
         setTimeout(function(){
             $( "#fullPageDiv" ).animate({
-                left: "-90%"
+                left: "200%"
             }, 500, function() {
              // Animation complete.
             }); 
@@ -30,14 +30,12 @@
 <body onload="javascript:enterFromLeft();">
 
 <div id="fullPageDiv">
-    <div id="centerPage">
+    <div id="introPage">
     <a href="javascript:enterFromLeft();">Click Here To Slide</a>
-        
-
     </div>
-    
-    <div id="leftPage">HELLO!!!</div>
-
+    <div id="pageone">Page 1</div>
+    <div id="pagetwo">Page 2</div>
+    <div id="pagethree">Page 2</div>
     
     
 </div>
