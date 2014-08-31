@@ -12,12 +12,8 @@
     $.ajax({
     url: "/Resources/pages/protopage.html",
     dataType: "html",
-    success: function(data) {
-        alert('aaa');
-        
-        $("#fullPageDiv").show("slide", { direction: "right" }, 1000), function() {
-            $(this).html(data).slideDown();
-        };
+    success: function(data) {        
+        $("#fullPageDiv").show("slide", { direction: "right" }, 1000);
     }
     });     
     }
