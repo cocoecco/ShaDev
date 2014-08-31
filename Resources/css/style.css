@@ -1,4 +1,4 @@
-html, body {height: 100%;,overflow-x: hidden;}
+html, body {height: 100%;}
 
 html {
     background-color:#4682B4;
@@ -52,8 +52,19 @@ body{
 }
 
 
-
 #fullPageDiv > #lowDiv {
     width: 100%;
     height: 10%;
 }
+
+
+#leftPage {
+    width: 100%;
+    height: 100%; 
+    position: absolute;  
+    background-color: blue;
+    left: -100%;
+}
+
+
+
