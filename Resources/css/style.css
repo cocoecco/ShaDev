@@ -107,35 +107,6 @@ html, body {
     text-align: center;
 }
 
-#protoBtnBox {
-    width:300px;
-    height: 60px;
-    background-color: #639BF1;
-    margin-left: 20%;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #293E6A;
-    text-align: center;
-    line-height: 60px;
-}
-
-#appBtnBox{
-    width:300px;
-    height: 60px;
-    background-color: #77BA9B;
-    margin-left: 50%;
-    margin-top: 30px;
-
-    font-size: 20px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #293E6A;
-    text-align: center;
-    line-height: 60px;
-}
-
-
-
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
     float:left;
     width: 50%;
@@ -162,6 +133,33 @@ html, body {
     background-color: #293E6A;
 }
 
+
+#fullPageDiv > #pagetwo > #lowDiv > #protoBtnBox {
+    width:300px;
+    height: 60px;
+    background-color: #639BF1;
+    margin-left: 20%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #293E6A;
+    text-align: center;
+    line-height: 60px;
+}
+
+#fullPageDiv > #pagetwo > #lowDiv > #appBtnBox{
+    width:300px;
+    height: 60px;
+    background-color: #77BA9B;
+    margin-left: 50%;
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #293E6A;
+    text-align: center;
+    line-height: 60px;
+}
 
 /* PAGE THREE STYLE */
 
