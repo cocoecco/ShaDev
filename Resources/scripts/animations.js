@@ -9,8 +9,6 @@ function enterFromLeft() {
 }   
 
 function showPageOne() {
-    rotateAnimation(protoImg, 0.4);
-    
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
             left: "-100%"
