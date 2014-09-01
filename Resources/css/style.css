@@ -71,6 +71,15 @@ html, body {
     background-color: #3B5998;
 }
 
+#titleP, #titlePS {
+    font-size: 30;
+    color: white;
+}
+
+#titlePS {
+    margin-left: 40px;   
+}
+
 #fullPageDiv > #pagetwo > #midDiv img {
     width: 40px;
     height: auto;
