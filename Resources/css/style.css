@@ -103,9 +103,10 @@ html, body {
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
-    width: 80%;
-    height: 120px;
-    background-color: rgba(0,0,0,0.4);
+    width: 60%;
+    height: 200px;
+    background-color: rgba(0,0,0,0.2);
+    
 }
 
 
