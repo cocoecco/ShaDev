@@ -78,9 +78,13 @@ html, body {
     text-align: left;
 }
 
+#titleP {
+    margin-left: 60px;   
+}
+
 #titlePS {
-    margin-left: 60px; 
-    margin-bottom:30px;
+    margin-left: 100px; 
+    padding-bottom:30px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
