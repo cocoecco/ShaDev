@@ -100,15 +100,19 @@ html, body {
     text-align: center;
 }
 
-#fullPageDiv > #pagetwo > #midDiv > #midLeft a {
-    font-size: 30px;
-    color: white;
-    margin-bottom: 10px;
-    text-decoration: none;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-	position: absolute;
-	bottom: 25%;
+#fullPageDiv > #pagetwo > #midDiv > #midLeft > #protoBtnBox {
+    width:100px;
+    height: 40px;
+    background-color: #639BF1;
 }
+
+#fullPageDiv > #pagetwo > #midDiv > #midLeft > #protoBtnBox > #appBtnBox{
+    width:100px;
+    height: 40px;
+    background-color: #77BA9B;
+}
+
+
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
     float:left;
@@ -117,14 +121,6 @@ html, body {
     text-align: center;
 }
 
-#fullPageDiv > #pagetwo > #midDiv > #midRight a {
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-	position: absolute;
-	bottom: 25%;
-}
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
     margin-left: 120px;
