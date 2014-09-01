@@ -36,7 +36,7 @@ html, body {
    background-image: url(/Resources/img/bgPattern.png);
     position:absolute;
     background-size: cover;
-    width: 1000px;
+    width: 100%;
     height: auto;
 }
 #pagethree {
