@@ -33,11 +33,10 @@ html, body {
     background-color: #4682B4;
 }
 #pagetwo {
-    background: url("/Resources/img/bgPattern.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+   background-image: url('/Resources/img/bgPattern.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   height:200px;width:1200px;
 }
 #pagethree {
     background-color: #4682B4;
