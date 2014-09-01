@@ -106,9 +106,8 @@ html, body {
     margin-bottom: 10px;
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-        position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+	position: absolute;
+	bottom: 0px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
