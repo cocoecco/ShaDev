@@ -72,8 +72,9 @@ html, body {
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
-    width: 120px;
+    width: 40px;
     height: auto;
+    bottom: 5px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midLeft {
