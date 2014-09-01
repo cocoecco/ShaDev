@@ -31,6 +31,9 @@ html, body {
 }
 #pageone {
     background-color: #4682B4;
+    background-image: url("/Resources/img/bgPattern.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 #pagetwo {
     background-color: #4682B4;
@@ -104,32 +107,23 @@ html, body {
     width:300px;
     height: 60px;
     background-color: #639BF1;
-<<<<<<< HEAD
     margin-left: 20%;
-=======
     margin-left: 10%;
->>>>>>> FETCH_HEAD
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #293E6A;
     text-align: center;
     line-height: 60px;
-<<<<<<< HEAD
     margin-top: 30px;
-=======
     margin-top: 10px;
->>>>>>> FETCH_HEAD
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midLeft > #appBtnBox{
     width:300px;
     height: 60px;
     background-color: #77BA9B;
-<<<<<<< HEAD
     margin-left: 20%;
-=======
     margin-left: 10%;
->>>>>>> FETCH_HEAD
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #293E6A;
