@@ -21,7 +21,7 @@ function showPageOne() {
 function centerFromPageOne() {
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
-            left: "+50%"
+            left: "-=50%"
         }, 500, function() {
          // Animation complete.
         }); 
