@@ -33,9 +33,7 @@ html, body {
     background-color: #4682B4;
 }
 #pagetwo {
-   background-image: url('/Resources/img/bgPattern.png');
-   background-repeat:no-repeat;
-   background-size: cover;
+   background-image: url(/Resources/img/bgPattern.png);
 }
 #pagethree {
     background-color: #4682B4;
