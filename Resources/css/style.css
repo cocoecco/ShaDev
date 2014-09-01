@@ -113,7 +113,8 @@ html, body {
     width: 60%;
     height: 240px;
     background-color: rgba(0,0,0,0.2);
-    
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 
