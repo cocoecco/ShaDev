@@ -72,8 +72,9 @@ html, body {
 }
 
 #titleP, #titlePS {
-    font-size: 30;
+    font-size: 50px;
     color: white;
+    font-family: "Times New Roman", Serif;
 }
 
 #titlePS {
