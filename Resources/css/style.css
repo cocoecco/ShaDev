@@ -35,8 +35,7 @@ html, body {
 #pagetwo {
    background-image: url('/Resources/img/bgPattern.png');
    background-repeat:no-repeat;
-   background-size:contain;
-   height:200px;width:1200px;
+   background-size: cover;
 }
 #pagethree {
     background-color: #4682B4;
