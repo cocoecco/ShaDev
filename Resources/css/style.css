@@ -72,13 +72,14 @@ html, body {
 }
 
 #titleP, #titlePS {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
-    font-family: "Times New Roman", Serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #titlePS {
-    margin-left: 40px;   
+    margin-left: 60px; 
+    margin-top:0;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
