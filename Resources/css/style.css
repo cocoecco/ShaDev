@@ -138,27 +138,26 @@ html, body {
     width:300px;
     height: 60px;
     background-color: #639BF1;
-    margin-left: 20%;
-    margin-top: 30px;
+    margin-left: 10%;
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #293E6A;
     text-align: center;
     line-height: 60px;
+    float: left;
 }
 
 #fullPageDiv > #pagetwo > #lowDiv > #appBtnBox{
     width:300px;
     height: 60px;
     background-color: #77BA9B;
-    margin-left: 50%;
-    margin-top: 30px;
-
+    margin-left: 30%;
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #293E6A;
     text-align: center;
     line-height: 60px;
+    float: left;
 }
 
 /* PAGE THREE STYLE */
