@@ -80,11 +80,11 @@ html, body {
 }
 
 #titleP {
-    margin-left: 60px;   
+    margin-left: 100px;   
 }
 
 #titlePS {
-    margin-left: 100px; 
+    margin-left: 140px; 
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
@@ -108,9 +108,9 @@ html, body {
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
-    margin-top: 100px;
+    margin-top: 1px;
     width: 60%;
-    height: 200px;
+    height: 240px;
     background-color: rgba(0,0,0,0.2);
     
 }
