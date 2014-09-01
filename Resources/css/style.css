@@ -100,11 +100,23 @@ html, body {
     text-align: center;
 }
 
+#fullPageDiv > #pagetwo > #midDiv > #midLeft a {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
     float:left;
     width: 50%;
     height: 100%;
     text-align: center;
+}
+
+#fullPageDiv > #pagetwo > #midDiv > #midRight a {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
