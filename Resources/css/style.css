@@ -107,7 +107,7 @@ html, body {
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 	position: absolute;
-	bottom: 0px;
+	bottom: 25%;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
@@ -123,7 +123,7 @@ html, body {
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 	position: absolute;
-	bottom: 0px;
+	bottom: 25%;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
