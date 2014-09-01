@@ -60,12 +60,15 @@ html, body {
 
 #fullPageDiv > #pagetwo > #topDiv {
     width: 100%;
-    height: 50%;
+    height: 10%;
+    background-color: #3B5998;
+    color: #FFF;
 }
 
 #fullPageDiv > #pagetwo > #midDiv {
     width: 100%;
-    height: 40%;
+    height: 70%;
+    background-color: #3B5998;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
@@ -89,8 +92,8 @@ html, body {
 
 #fullPageDiv > #pagetwo > #lowDiv {
     width: 100%;
-    height: 10%;
-    background-color: #29699F;
+    height: 20%;
+    background-color: #293E6A;
 }
 
 
