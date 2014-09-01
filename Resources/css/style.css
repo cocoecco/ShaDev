@@ -101,15 +101,25 @@ html, body {
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midLeft > #protoBtnBox {
-    width:100px;
-    height: 40px;
+    width:150px;
+    height: 60px;
     background-color: #639BF1;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #293E6A;
+    float: left;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midLeft > #appBtnBox{
-    width:100px;
-    height: 40px;
+    width:150px;
+    height: 60px;
     background-color: #77BA9B;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #293E6A;
+    float: left;
 }
 
 
