@@ -75,11 +75,12 @@ html, body {
     font-size: 60px;
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
 }
 
 #titlePS {
     margin-left: 60px; 
-    margin-top:0;
+    margin-bottom:30px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
