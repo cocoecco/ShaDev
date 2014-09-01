@@ -21,7 +21,7 @@ function showPageOne() {
 function centerFromPageOne() {
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
-            left: "-=50%"
+            left: "-=100%"
         }, 500, function() {
          // Animation complete.
         }); 
@@ -32,7 +32,7 @@ function centerFromPageOne() {
 function showPageThree() {
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
-            left: "+100%"
+            left: "-=100%"
         }, 500, function() {
          // Animation complete.
         }); 
@@ -43,7 +43,7 @@ function showPageThree() {
 function centerFromPageThree() {
     setTimeout(function(){
         $( "#fullPageDiv" ).animate({
-            left: "-100%"
+            left: "+=100%"
         }, 500, function() {
          // Animation complete.
         }); 
