@@ -116,7 +116,10 @@ html, body {
 #fullPageDiv > #pagetwo > #midDiv > #midRight a {
     font-size: 30px;
     color: white;
-    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    vertical-align: bottom;
+    
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
