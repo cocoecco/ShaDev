@@ -34,6 +34,8 @@ html, body {
 }
 #pagetwo {
    background-image: url(/Resources/img/bgPattern.png);
+    width: 100%;
+    height: 100%;
 }
 #pagethree {
     background-color: #4682B4;
