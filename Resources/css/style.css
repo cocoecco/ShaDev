@@ -104,6 +104,8 @@ html, body {
     font-size: 30px;
     color: white;
     margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight {
@@ -118,8 +120,9 @@ html, body {
     color: white;
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    vertical-align: bottom;
-    
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);    
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
