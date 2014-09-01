@@ -31,11 +31,12 @@ html, body {
 }
 #pageone {
     background-color: #4682B4;
-    background-image: url("/Resources/img/bgPattern.png");
-    background-repeat: repeat-x;
 }
 #pagetwo {
     background-color: #4682B4;
+    background-image: url("/Resources/img/bgPattern.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 #pagethree {
     background-color: #4682B4;
