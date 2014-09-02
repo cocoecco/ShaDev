@@ -54,11 +54,19 @@ html, body {
 }
 
 #fullPageDiv > #pageone > #pageOneMenuDiv {
-    background-color: #632DA8;
+    background-color: #293E6A;
     width: 10%;
     height: 100%;
     float: left; 
 }
+
+#fullPageDiv > #pageone > #pageOneMenuDiv img {
+    top:25%;
+}
+
+
+
+
 
 /* PAGE TWO STYLE */
 
@@ -139,7 +147,6 @@ html, body {
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
     margin-left: 70px;
     margin-bottom:160px;
-    
     width: 500px;
     height: 100px;
     background-color: rgba(0,0,0,0.2);
