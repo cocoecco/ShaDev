@@ -123,7 +123,7 @@ html, body {
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
-    margin-left: 120px;
+    margin-left: 10px;
     margin-bottom:160px;
     
     width: 500px;
