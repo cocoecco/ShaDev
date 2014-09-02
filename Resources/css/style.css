@@ -265,10 +265,25 @@ html, body {
 }
 
 #fullPageDiv > #pagethree > #pageThreeMenuDiv {
-    background-color: #632DA8;
+    background-color: #293E6A;
     width: 10%;
     height: 100%;
     float: left; 
 }
+
+
+#fullPageDiv > #pagethree > #pageThreeMenuDiv img {
+    margin-top: 240px;
+    width: 60%;
+    left: 20%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+
+
+
 
 
