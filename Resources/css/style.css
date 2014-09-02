@@ -56,8 +56,10 @@ html, body {
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv {
     width: 200px;
     height: 500px;
-    background-color: yellow;
+    background-color: black;
     color: #fff;
+    margin-left: 20%;
+    margin-top: 10%;
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
