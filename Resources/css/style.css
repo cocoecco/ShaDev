@@ -59,7 +59,7 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 30px;
     width: 440px;
-    text-align: left;
+    text-align: center;
     margin-left: 115px;
     margin-top:90px;
     float: left;
@@ -70,9 +70,9 @@ html, body {
     color: #fff;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 30px;
-    width: 440px;
-    text-align: left;
-    margin-left:115px;
+    width: 310px;
+    text-align: center;
+    margin-left:135px;
     margin-top:130px;
     float: left;
 }
