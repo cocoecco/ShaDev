@@ -29,19 +29,19 @@ html, body {
 
 #introPage {
     z-index: 15;
-    position: absolute;
+    position: auto;
 }
 #pageone {
     z-index: 15;
-    position: absolute;
+    position: auto;
 }
 #pagetwo {
     z-index: 15;
-    position: absolute;
+    position: auto;
 }
 #pagethree {
     z-index: 15;
-    position: absolute;
+    position: auto;
 }
 
 
@@ -71,6 +71,7 @@ html, body {
     background-color: #3B5998;
     background-image:url(/Resources/img/bgPattern.png);
     background-size: cover;
+    z-index: -1;
 }
 
 #fullPageDiv > #pagetwo > #topDiv {
