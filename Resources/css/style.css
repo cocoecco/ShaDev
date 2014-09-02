@@ -28,19 +28,19 @@ html, body {
 }
 
 #introPage {
-    position: inherit;
+    position:absolute;
     z-index: 15;
 }
 #pageone {
-    position: inherit;
+    position: absolute;
     z-index: 15;
 }
 #pagetwo {
-    position: inherit;
+    position: absolute;
     z-index: 15;
 }
 #pagethree {
-    position: inherit;
+    position: absolute;
     z-index: 15;
 }
 
