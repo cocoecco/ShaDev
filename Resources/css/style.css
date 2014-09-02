@@ -29,9 +29,11 @@ html, body {
 
 #introPage {
     z-index: 15;
+    position: absolute;
 }
 #pageone {
     z-index: 15;
+    position: absolute;
 }
 #pagetwo {
     z-index: 15;
@@ -39,6 +41,7 @@ html, body {
 }
 #pagethree {
     z-index: 15;
+    position: absolute;
 }
 
 
