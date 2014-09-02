@@ -116,8 +116,8 @@ html, body {
 }
 
 
-#fullPageDiv > #pagetwo > #midDiv > #midRight img {
-    width: 400;
+#fullPageDiv > #pagetwo > #midDiv > #midRight > #macImage {
+    width: 400px;
     height: auto;
 }
 
