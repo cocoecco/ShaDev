@@ -116,6 +116,11 @@ html, body {
 }
 
 
+#fullPageDiv > #pagetwo > #midDiv > #midRight > #macImage {
+    width: 400;
+    height: auto;
+}
+
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
     margin-left: 120px;
     width: 40%;
