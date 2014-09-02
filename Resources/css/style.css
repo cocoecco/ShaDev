@@ -119,17 +119,17 @@ html, body {
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #macImage {
     width: 500px;
     height: auto;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #floatingBox{
     margin-left: 120px;
-    width: 40%;
-    height: 300px;
+    margin-bottom:160px;
+    
+    width: 500px;
+    height: 100px;
     background-color: rgba(0,0,0,0.2);
-    margin-top:160px;
     color: #fff;
-    display: none;
 }
 
 
