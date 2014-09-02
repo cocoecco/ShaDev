@@ -62,7 +62,6 @@ html, body {
     text-align: left;
     margin-left: 100px;
     margin-top:90px;
-    
 }
 
 
@@ -76,6 +75,7 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
     float: left;
+    background-color: yellow;
     
 }
 
