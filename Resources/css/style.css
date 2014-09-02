@@ -53,19 +53,19 @@ html, body {
     float: left;
 }
 
-#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv {
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv {
     width: 200px;
     height: 500px;
-    background-color: black;
     color: #fff;
     margin-left: 20%;
     margin-top: 5%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
+    float: left;
     
 }
 
-#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv,crossDiv img {
     width: 200px;
     height: auto;
 }
