@@ -53,6 +53,12 @@ html, body {
     float: left;
 }
 
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv {
+    width: 150px;
+    height: auto;
+}
+
+
 #fullPageDiv > #pageone > #pageOneMenuDiv {
     background-color: #293E6A;
     width: 10%;
