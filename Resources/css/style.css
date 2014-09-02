@@ -54,14 +54,14 @@ html, body {
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #oneTitleDiv{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     color: #fff;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 30px;
-    width: 430px;
+    width: 440px;
     text-align: left;
     margin-left: 100px;
-    margin-top:90px;
+    margin-top:110px;
     
 }
 
