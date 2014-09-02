@@ -28,16 +28,13 @@ html, body {
 }
 
 #introPage {
-    background-color: #4682B4;
 }
 #pageone {
-    background-color: #4682B4;
 }
 #pagetwo {
     z-index: 15;
 }
 #pagethree {
-    background-color: #4682B4;
 }
 
 
@@ -59,11 +56,12 @@ html, body {
 /* PAGE TWO STYLE */
 
 #bgDiv {
-    position:sticky;
+    position:fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: #3B5998;
     background-image:url(/Resources/img/bgPattern.png);
     background-size: cover;
 }
