@@ -54,7 +54,13 @@ html, body {
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv {
-    width: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
+    width: 200px;
     height: auto;
 }
 
