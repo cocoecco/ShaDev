@@ -58,6 +58,9 @@ html, body {
     color: #fff;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 22px;
+    width: 140px;
+    text-align: left;
+    margin-left: 140px;
 }
 
 
