@@ -53,11 +53,11 @@ html, body {
     float: left;
 }
 
-#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv {
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv {
     width: 200px;
     height: 500px;
     color: #fff;
-    margin-left: 20%;
+    margin-left: 60px;
     margin-top: 5%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
@@ -74,6 +74,12 @@ html, body {
     width: 200px;
     height: auto;
 }
+
+#fullPageDiv > #pageone > #pageOneContentDiv > #protoDevDiv img {
+    width: 200px;
+    height: auto;
+}
+
 
 #fullPageDiv > #pageone > #pageOneMenuDiv {
     background-color: #293E6A;
