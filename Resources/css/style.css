@@ -53,11 +53,20 @@ html, body {
     float: left;
 }
 
+#fullPageDiv > #pageone > #pageOneContentDiv > #oneTitleDiv{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv, #gameDiv {
     width: 200px;
     height: 500px;
     color: #fff;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 8%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
