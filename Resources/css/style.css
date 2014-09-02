@@ -35,6 +35,7 @@ html, body {
 }
 #pagetwo {
     z-index: 15;
+    position: inherit;
 }
 #pagethree {
     z-index: 15;
