@@ -106,7 +106,7 @@ html, body {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
@@ -144,6 +144,7 @@ html, body {
     height: 100px;
     background-color: rgba(0,0,0,0.2);
     color: #fff;
+    visibility: hidden;
 }
 
 
