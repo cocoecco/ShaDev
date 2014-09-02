@@ -60,9 +60,23 @@ html, body {
     font-size: 30px;
     width: 440px;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 115px;
     margin-top:90px;
 }
+
+#fullPageDiv > #pageone > #pageOneContentDiv > #twoTitleDiv{
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    width: 440px;
+    text-align: left;
+    margin-right: 115px;
+    margin-top:130px;
+}
+
+
+
 
 
 
