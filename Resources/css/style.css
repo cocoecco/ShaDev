@@ -65,11 +65,15 @@ html, body {
     
 }
 
-#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv img {
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
     width: 200px;
     height: auto;
 }
 
+#fullPageDiv > #pageone > #pageOneContentDiv > #crossDiv img {
+    width: 200px;
+    height: auto;
+}
 
 #fullPageDiv > #pageone > #pageOneMenuDiv {
     background-color: #293E6A;
