@@ -68,15 +68,13 @@ html, body {
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv, #gameDiv {
     width: 200px;
-    height: 500px;
+    height: 400px;
     color: #fff;
     margin-left: 90px;
     margin-top: 5%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
-    float: left;
-    background-color: yellow;
-    
+    float: left;    
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
