@@ -59,7 +59,10 @@ html, body {
     background-color: black;
     color: #fff;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+    
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
