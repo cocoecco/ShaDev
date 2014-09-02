@@ -32,11 +32,10 @@ html, body {
 }
 #pageone {
     z-index: 15;
-        position: inherit;
 }
 #pagetwo {
     z-index: 15;
-    position: inherit;
+    position: absolute;
 }
 #pagethree {
     z-index: 15;
