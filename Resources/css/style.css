@@ -59,7 +59,7 @@ html, body {
 /* PAGE TWO STYLE */
 
 #bgDiv {
-    position:static;
+    position:sticky;
     left: 0;
     top: 0;
     width: 100%;
