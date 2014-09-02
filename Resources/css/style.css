@@ -61,7 +61,10 @@ html, body {
 }
 
 #fullPageDiv > #pageone > #pageOneMenuDiv img {
-    top:25%;
+    margin-top:25%;
+    width: 60%;
+    left: 20%;
+    height: auto;
 }
 
 
