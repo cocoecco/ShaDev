@@ -101,6 +101,13 @@ html, body {
     margin-left: 130px; 
 }
 
+#lRow {
+    text-align: left;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
 #fullPageDiv > #pagetwo > #midDiv img {
     width: 40px;
     height: auto;
