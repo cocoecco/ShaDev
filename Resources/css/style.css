@@ -74,7 +74,6 @@ html, body {
     text-align: center;
     margin-left:135px;
     margin-top:130px;
-    float: left;
 }
 
 
@@ -90,6 +89,7 @@ html, body {
     margin-top: 5%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: left;
+    float: left;    
 }
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv img {
