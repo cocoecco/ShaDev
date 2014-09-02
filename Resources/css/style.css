@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     text-align: center; 
     overflow: hidden;
+    background-image: url("/Resources/img/bgPattern.png");
 }
 
 #fullPageDiv {
