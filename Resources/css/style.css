@@ -53,7 +53,7 @@ html, body {
     float: left;
 }
 
-#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv {
+#fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv, #gameDiv {
     width: 200px;
     height: 500px;
     color: #fff;
@@ -80,6 +80,10 @@ html, body {
     height: auto;
 }
 
+#fullPageDiv > #pageone > #pageOneContentDiv > #gameDiv img {
+    width: 200px;
+    height: auto;
+}
 
 #fullPageDiv > #pageone > #pageOneMenuDiv {
     background-color: #293E6A;
