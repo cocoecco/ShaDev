@@ -106,6 +106,7 @@ html, body {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
+    margin-left: 50px;
 }
 
 #fullPageDiv > #pagetwo > #midDiv img {
