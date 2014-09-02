@@ -123,6 +123,7 @@ html, body {
     background-color: rgba(0,0,0,0.2);
     margin-top:160px;
     color: #fff;
+    display: none;
 }
 
 
