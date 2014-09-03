@@ -280,21 +280,21 @@ html, body {
     vertical-align: middle;
 }
 
-#fullPageDiv > #pagethree > #pageThreeMenuDiv > # webLeft {
+#fullPageDiv > #pagethree > #pageThreeMenuDiv > #webLeft {
     width: 50%;
     height: 100%;
     background-color: blue;
     float: left;
 }
 
-#fullPageDiv > #pagethree > #pageThreeMenuDiv > # webRight {
+#fullPageDiv > #pagethree > #pageThreeMenuDiv > #webRight {
     width: 50%;
     height: 100%;
     background-color: green;
     float: left;
 }
 
-#fullPageDiv > #pagethree > #pageThreeMenuDiv > # webRight > #webImage {
+#fullPageDiv > #pagethree > #pageThreeMenuDiv > #webRight > #webImage {
     width: 80%;
     height: auto;
     top: 20%;
