@@ -51,7 +51,16 @@ function centerFromPageThree() {
 }
 
 
-
+function showContactPage() {
+    alert('contact');  
+    setTimeout(function(){
+        $( "#contactPage" ).animate({
+            top: "-=50%"
+        }, 500, function() {
+         // Animation complete.
+        }); 
+    }, 20);
+}
 
 
 
