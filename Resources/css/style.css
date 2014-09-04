@@ -337,7 +337,7 @@ html, body {
     height: 50%;
     left: 200%;
     top: 100%;
-    background-color: yellow; 
+    background-color: #293E6A; 
 }
 
 #fullPageDiv > #contactPage > #topBar {
@@ -347,7 +347,7 @@ html, body {
 }
 
 #fullPageDiv > #contactPage > #topBar > #downArrow {
-    width:60px;
+    width:50px;
     height: auto;
     margin-top: 5px;
     left: auto;
