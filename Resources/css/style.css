@@ -286,6 +286,7 @@ html, body {
     float: left;
     color: #fff;
     text-align: left;
+    word-wrap: break-word;
 }
 
 #fullPageDiv > #pagethree > #pageThreeContentDiv > #webLeft p {
