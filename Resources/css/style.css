@@ -362,6 +362,18 @@ html, body {
     height: 100%;
 }
 
+#fullPageDiv > #contactPage > #bottomLeft > #emailIcon {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#fullPageDiv > #contactPage > #bottomLeft > #contactusp {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #77BA9B;
+    font-size: 24px;
+}
 
 
 
