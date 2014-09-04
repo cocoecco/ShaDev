@@ -359,8 +359,8 @@ html, body {
 
 #fullPageDiv > #contactPage > #bottomLeft{
     width:30%;
-    height: 80%;
-    margin-top:50px;
+    height: 90%;
+    margin-top:20px;
 }
 
 input {
@@ -374,8 +374,8 @@ input {
 }
 
 #message {
-    width: 80%;
-    height: 200px;;
+    width: 60%;
+    height: 150px;;
     margin-left: 7%;
     margin-top: 5px;
 }
