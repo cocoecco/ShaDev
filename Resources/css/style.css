@@ -359,8 +359,8 @@ html, body {
 
 #fullPageDiv > #contactPage > #bottomLeft{
     width:30%;
-    height: 90%;
-    margin-top:0px;
+    height: 80%;
+    margin-top:10%;
     background-color:green;
 }
 
