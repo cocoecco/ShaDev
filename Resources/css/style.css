@@ -380,8 +380,11 @@ html, body {
     float: left;
 }
 
-#fullPageDiv > #contactPage > #bottomLeft > #contactusp > #contactform {
+#fullPageDiv > #contactPage > #bottomLeft > #contactusp form {
     margin-top: 100px;
+    background-color: blue;
+    width: 100%;
+    height: 200px;
     
 }
 
