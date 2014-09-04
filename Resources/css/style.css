@@ -376,9 +376,16 @@ html, body {
     margin-left: 40px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #fff;
-    font-size: 42px;
+    font-size: 48px;
     float: left;
 }
+
+#fullPageDiv > #contactPage > #bottomLeft > #contactusp > #contactform {
+    margin-top: 100px;
+    
+}
+
+
 
 
 
