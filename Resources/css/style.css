@@ -365,14 +365,14 @@ html, body {
 #fullPageDiv > #contactPage > #bottomLeft > #emailIcon {
     margin-top: 10px;
     margin-left: 30px;
-    width: 40px;
+    width: 50px;
     height: auto;
     float: left;
 }
 
 #fullPageDiv > #contactPage > #bottomLeft > #contactusp {
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #293E6A;
     font-size: 24px;
