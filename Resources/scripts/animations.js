@@ -52,7 +52,6 @@ function centerFromPageThree() {
 
 
 function showContactPage() {
-    alert('contact');  
     setTimeout(function(){
         $( "#contactPage" ).animate({
             top: "-=50%"
@@ -62,6 +61,16 @@ function showContactPage() {
     }, 20);
 }
 
+
+function hideContactPage() {
+    setTimeout(function(){
+        $( "#contactPage" ).animate({
+            top: "+=50%"
+        }, 500, function() {
+         // Animation complete.
+        }); 
+    }, 20);
+}
 
 
 
