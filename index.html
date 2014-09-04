@@ -8,6 +8,17 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="/Resources/scripts/animations.js"></script>     
     
+    <script>
+        //preventing scrolling with keyboard
+    document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var keyCode = evt.keyCode;
+    if (keyCode >= 37 && keyCode <= 40) {
+        return false;
+    }
+    };
+    </script>
+    
 </head>
 <body onload="javascript:enterFromLeft();">
 <div id="fullPageDiv">

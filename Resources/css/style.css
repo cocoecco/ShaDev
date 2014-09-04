@@ -347,9 +347,9 @@ html, body {
 }
 
 #fullPageDiv > #contactPage > #topBar > #downArrow {
-    width:50px;
+    width:40px;
     height: auto;
-    margin-top: 5px;
+    margin-top: 8px;
     left: auto;
 }
 
