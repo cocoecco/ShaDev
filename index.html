@@ -113,8 +113,19 @@
         <div id="topBar"><a href="javascript:hideContactPage();"><img src="Resources/img/downarrow.png" id="downArrow"></img></a></div>
         <div id="bottomLeft">
             <form action='/contact', name='contactform', id='contactform', method='post'>
-                <input type=text id="fullNameField" placeholder="Full Name">
-                <input type=text id="emailField" placeholder="Email" type="email">
+                <div class="row">
+                    <label for="name">Your name:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	           </div>
+	           <div class="row">
+		          <label for="email">Your email:</label><br />
+		          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	           </div>
+	           <div class="row">
+		          <label for="message">Your message:</label><br />
+		          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	           </div>
+	           <input id="submit_button" type="submit" value="Send email" />
             
             </form>
         </div>
