@@ -373,11 +373,11 @@ input {
     box-shadow: 0 0 5px 1px #969696;
 }
 
-textarea {
+#message {
     width: 80%;
     height: 200px;;
     margin-left: 7%;
-    margin-top: 63px;
+    margin-top: 5px;
 }
 
 
