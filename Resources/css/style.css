@@ -342,14 +342,14 @@ html, body {
 
 #fullPageDiv > #contactPage > #topBar {
     width:100%;
-    height: 20px;
+    height: 30px;
     background-color: #383838; 
 }
 
 #fullPageDiv > #contactPage > #topBar > #downArrow {
     width:60px;
     height: auto;
-    top: 5px;
+    margin-top: 5px;
     left: auto;
 }
 
