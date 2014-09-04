@@ -346,7 +346,7 @@ html, body {
     background-color: #44EF9D; 
 }
 
-#fullPageDiv > #contactPage > #topBar > img {
+#fullPageDiv > #contactPage > #topBar > a img {
     width:40px;
     height: auto;
     margin-top: 8px;
