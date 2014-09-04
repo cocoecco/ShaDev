@@ -283,21 +283,19 @@ html, body {
 #fullPageDiv > #pagethree > #pageThreeContentDiv > #webLeft {
     width: 50%;
     height: 100%;
-    background-color: blue;
     float: left;
 }
 
 #fullPageDiv > #pagethree > #pageThreeContentDiv > #webRight {
     width: 50%;
     height: 100%;
-    background-color: green;
     float: left;
 }
 
 #fullPageDiv > #pagethree > #pageThreeContentDiv > #webRight > #webImage {
     width: 80%;
     height: auto;
-    top: 20%;
+    top: 40px;
     left: 10%;
 }
 
