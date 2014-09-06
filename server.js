@@ -12,7 +12,38 @@ var SampleApp = function() {
     //  Scope.
     var self = this;
 
-
+    function handleContact(req,res) {
+        var nodemailer = require('nodemailer');
+        
+             smtpTrans = nodemailer.createTransport('SMTP', {
+                 service: 'Gmail',
+                 auth: {
+                     user: "shacharudi9@gmail.com",
+                     pass: "si3m3ns9"
+                 }
+             });
+        //Mail options
+        mailOpts = {
+            from: req.body.name + ' &lt;' + req.body.email + '&gt;', //grab form data from the request body object
+            to: 'shacharudi9@gmail.com',
+            subject: 'Website contact form',
+            text: req.body.message
+        };
+        smtpTrans.sendMail(mailOpts, function (error, response) {
+            //Email not sent
+            if (error) {
+                res.render('/');
+            }
+            //Yay!! Email sent
+            else {
+                res.render('/');
+            }
+        });
+    });
+    }
+        
+    
+    
     /*  ================================================================  */
     /*  Helper functions.                                                 */
     /*  ================================================================  */
@@ -106,7 +137,10 @@ var SampleApp = function() {
         };
     };
 
-
+    self.app.post['/contact'] = function (req, res) {
+            handleContact(req,res);
+    }
+    
     /**
      *  Initialize the server (express) and create the routes and register
      *  the handlers.
