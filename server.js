@@ -11,13 +11,6 @@ var SampleApp = function() {
 
     //  Scope.
     var self = this;
-
-    function handleContact(req,res) {
-        
-
-    }
-        
-    
     
     /*  ================================================================  */
     /*  Helper functions.                                                 */
@@ -111,10 +104,6 @@ var SampleApp = function() {
             res.send(self.cache_get('index.html') );
         };
     };
-
-    self.app.post('/contact') = function (req, res) {
-            handleContact(req,res);
-    }
     
     /**
      *  Initialize the server (express) and create the routes and register
