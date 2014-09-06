@@ -112,7 +112,7 @@ var SampleApp = function() {
         };
     };
 
-    self.app.post['/contact'] = function (req, res) {
+    self.app.post('/contact') = function (req, res) {
             handleContact(req,res);
     }
     
