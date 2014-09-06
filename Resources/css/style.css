@@ -331,14 +331,5 @@ html, body {
     margin-top: 8px;
     left: auto;
 }
-#fullPageDiv > #contactPage > #titlePa
-    width: 100%;
-    height: 100%;
-    color: #000;
-    text-align: left;
-    word-wrap: break-word;
-    font-size: 30px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color:green;
-}
+
 
