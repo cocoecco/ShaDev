@@ -7,7 +7,6 @@ html, body {
     overflow: hidden;
 }
 
-
 #fullPageDiv {
     position: absolute;
     width:100%;
@@ -17,7 +16,6 @@ html, body {
     white-space: nowrap;
     font-size: 0;
 }
-
 
 #introPage, #pageone, #pagetwo, #pagethree {
     width: 100%;
@@ -43,8 +41,6 @@ html, body {
     z-index: 15;
     position: auto;
 }
-
-
 /* PAGE ONE STYLE */
 
 #fullPageDiv > #pageone > #pageOneContentDiv {
@@ -75,11 +71,6 @@ html, body {
     margin-left:60%;
     margin-top:130px;
 }
-
-
-
-
-
 
 #fullPageDiv > #pageone > #pageOneContentDiv > #xcodeDiv, #crossDiv, #protoDevDiv, #gameDiv {
     width: 200px;
@@ -126,11 +117,6 @@ html, body {
     height: auto;
     vertical-align: middle;
 }
-
-
-
-
-
 /* PAGE TWO STYLE */
 
 #bgDiv {
@@ -200,7 +186,6 @@ html, body {
     text-align: center;
 }
 
-
 #fullPageDiv > #pagetwo > #midDiv > #midRight > #macImage {
     width: 500px;
     height: auto;
@@ -216,10 +201,6 @@ html, body {
     color: #fff;
     visibility: hidden;
 }
-
-
-
-
 
 #fullPageDiv > #pagetwo > #lowDiv {
     width: 100%;
@@ -238,7 +219,6 @@ html, body {
     line-height: 60px;
     color: #293E6A;
 }
-
 
 #fullPageDiv > #pagetwo > #lowDiv > #protoBtnBox {
     background-color: #639BF1;
@@ -259,8 +239,6 @@ html, body {
 }
 
 /* PAGE THREE STYLE */
-
-
 #fullPageDiv > #pagethree > #pageThreeContentDiv {
     width: 90%;
     height: 100%;
@@ -333,7 +311,6 @@ html, body {
     left: 3%;
 }
 
-
 #fullPageDiv > #contactPage {
     position: absolute;
     width:100%;
@@ -343,7 +320,17 @@ html, body {
     background-color: #639BF1;
     font-size: 30px;
 }
-
+#fullPageDiv > #contactPage > #topBar {
+    width:100%;
+    height: 30px;
+    background-color: #404040; 
+}
+#fullPageDiv > #contactPage > #topBar > a img {
+    width:40px;
+    height: auto;
+    margin-top: 8px;
+    left: auto;
+}
 #fullPageDiv > #contactPage > #titlePa
     width: 100%;
     height: 100%;
@@ -354,32 +341,4 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color:green;
 }
-
-#fullPageDiv > #contactPage > #topBar {
-    width:100%;
-    height: 30px;
-    background-color: #404040; 
-}
-
-#fullPageDiv > #contactPage > #topBar > a img {
-    width:40px;
-    height: auto;
-    margin-top: 8px;
-    left: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
