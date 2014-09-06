@@ -13,7 +13,6 @@ var SampleApp = function() {
     var self = this;
 
     function handleContact(req,res) {
-        var nodemailer = require('nodemailer');
         
 
     }
