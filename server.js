@@ -100,13 +100,15 @@ var SampleApp = function() {
         };
 
         self.routes['/'] = function(req, res) {
-             var isMobile = isCallerMobile(req);
-            console.log('is mobile= ' + isMobile);
-            
-            
-            
-            res.setHeader('Content-Type', 'text/html');
-            res.send(self.cache_get('index.html') );
+            var isMobile = isCallerMobile(req);
+            if (isMobile) {
+                res.setHeader('Content-Type', 'text/html');
+                res.send(self.cache_get('mobileIndex.html') );                 
+            }
+            else {
+                res.setHeader('Content-Type', 'text/html');
+                res.send(self.cache_get('index.html') );   
+            }
         };
     };
     
