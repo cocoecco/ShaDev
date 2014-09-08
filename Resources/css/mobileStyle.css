@@ -3,9 +3,9 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    text-align: center; 
-    overflow: hidden;
+    text-align: right; 
     background-color: "#639BF1";
+    font-size: 55px;
 }
 
 #contentHolder {
