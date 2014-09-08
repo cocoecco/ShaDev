@@ -43,6 +43,7 @@ var SampleApp = function() {
 
         //  Local cache for static content.
         self.zcache['index.html'] = fs.readFileSync('./index.html');
+        self.zcache['mobileIndex.html'] = fs.readFileSync('./mobileIndex.html');
     };
 
 
@@ -103,7 +104,7 @@ var SampleApp = function() {
             var isMobile = isCallerMobile(req);
             if (isMobile) {
                 res.setHeader('Content-Type', 'text/html');
-                res.render('mobileIndex.html'); 
+                res.send(self.cache_get('mobileIndex.html') ); 
                 console.log('going mobile');
             }
             else {
