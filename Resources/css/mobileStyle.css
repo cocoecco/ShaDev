@@ -12,7 +12,7 @@ html, body {
     background-color: "#639BF1";
 }
 
-#contentHolder > #header { 
+#contentHolder > #topBar { 
     display:block;
     background-color: "#293E6A";
     width: 100%;
