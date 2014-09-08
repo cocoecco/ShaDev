@@ -7,7 +7,7 @@ html, body {
 }
 
 #contentHolder {
-    background_color: "#639BF1";
+    background-color: blue;
 }
 
 #contentHolder > #topBar { 
