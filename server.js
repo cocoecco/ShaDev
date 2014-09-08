@@ -103,11 +103,13 @@ var SampleApp = function() {
             var isMobile = isCallerMobile(req);
             if (isMobile) {
                 res.setHeader('Content-Type', 'text/html');
-                res.send(self.cache_get('mobileIndex.html') );                 
+                res.render('mobileIndex.html'); 
+                console.log('going mobile');
             }
             else {
                 res.setHeader('Content-Type', 'text/html');
-                res.send(self.cache_get('index.html') );   
+                res.send(self.cache_get('index.html') ); 
+                console.log('going web');
             }
         };
     };
