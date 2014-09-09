@@ -90,6 +90,8 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: rgba(255,255,255,1.0);
     font-size: 12px;
+    background-color: rgba(99,155,242,1.0);
+
 }
 
 #contentHolder > #secondPage > #sec1 {
