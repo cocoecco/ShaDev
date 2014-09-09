@@ -18,7 +18,7 @@ html, body {
 }
 
 #contentHolder > #firstPage > #mobileFront {
-    padding-top: 20px;
+    padding-top: 40px;
     width: 80%;
     height: auto;
     margin-left: 10%;
@@ -85,9 +85,32 @@ html, body {
 
 
 #contentHolder > #secondPage {
-    background-color:green;
     height: 100%;
     width: 100%;
+}
+
+#contentHolder > #secondPage > #sec1 {
+    height: 25%;
+    width: 100%;
+    background-color: blue;
+}
+
+#contentHolder > #secondPage > #sec2 {
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#contentHolder > #secondPage > #sec3 {
+    height: 25%;
+    width: 100%;
+    background-color: green;
+}
+
+#contentHolder > #secondPage > #sec4 {
+    height: 25%;
+    width: 100%;
+    background-color: red;
 }
 
 #contentHolder > #thirdPage {
