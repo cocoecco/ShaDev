@@ -161,18 +161,22 @@ html, body {
 #contentHolder > #thirdPage > #devTitle{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: rgba(255,255,255,1.0);  
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
-    width: 100%;
+    width: 90%;
+    margin-left: 2%;
+    text-decoration: underline;
 }
 
 #contentHolder > #thirdPage > #devText {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: rgba(255,255,255,1.0);  
-    font-size: 20px;
-    text-align: center;
-    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    width: 90%;
     margin-top: 4px;
+    margin-left: 2%
+
 }
 
 
