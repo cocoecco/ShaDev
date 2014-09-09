@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     text-align: left; 
+    background-color: rgba(99,155,242,1.0);
 }
 
 #contentHolder {
@@ -124,6 +125,13 @@ html, body {
     margin-left:3%;
     float: left;
     padding-top: 7%;
+    float: left;
+}
+
+#secP {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgba(255,255,255,1.0);  
+    float: left;
 }
 
 
