@@ -162,9 +162,9 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: rgba(255,255,255,1.0);  
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     width: 90%;
-    margin-left: 2%;
+    margin-left: 5%;
     text-decoration: underline;
 }
 
@@ -172,10 +172,10 @@ html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: rgba(255,255,255,1.0);  
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     width: 90%;
     margin-top: 4px;
-    margin-left: 2%
+    margin-left: 5%
 
 }
 
