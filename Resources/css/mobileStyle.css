@@ -87,6 +87,9 @@ html, body {
 #contentHolder > #secondPage {
     height: 100%;
     width: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgba(255,255,255,1.0);
+    font-size: 12px;
 }
 
 #contentHolder > #secondPage > #sec1 {
@@ -112,6 +115,15 @@ html, body {
     width: 100%;
     background-color: red;
 }
+
+
+#secimg {
+    width: 25%;
+    height: auto;
+    margin-left:3%;
+}
+
+
 
 #contentHolder > #thirdPage {
     background-color: blue;
