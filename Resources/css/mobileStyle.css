@@ -183,10 +183,25 @@ html, body {
 #contentHolder > #forthPage {
     height: 100%;
     width: 100%;
-    vertical-align: middle;
+}
+
+#contentHolder > #forthPage > #forthText {
+    height: 30%;
+    width: 90%;
+    text-align: center;
     color: rgba(255,255,255,1.0);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 22px;
-
+    margin-top: 35%;
 }
+
+
+
+
+
+
+
+
+
+
 
