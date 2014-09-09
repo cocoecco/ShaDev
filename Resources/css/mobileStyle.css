@@ -95,7 +95,6 @@ html, body {
 #contentHolder > #secondPage > #sec1 {
     height: 25%;
     width: 100%;
-    background-color: blue;
 }
 
 #contentHolder > #secondPage > #sec2 {
@@ -122,6 +121,7 @@ html, body {
     height: auto;
     margin-left:3%;
     float: left;
+    padding-top: 7%;
 }
 
 
