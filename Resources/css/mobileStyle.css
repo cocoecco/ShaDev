@@ -121,6 +121,7 @@ html, body {
     width: 25%;
     height: auto;
     margin-left:3%;
+    float: left;
 }
 
 
