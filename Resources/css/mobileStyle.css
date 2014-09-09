@@ -103,7 +103,6 @@ html, body {
 #contentHolder > #secondPage > #sec2 {
     height: 25%;
     width: 100%;
-    background-color: yellow;
 }
 
 #contentHolder > #secondPage > #sec3 {
@@ -125,6 +124,8 @@ html, body {
     margin-left:2%;
     float: left;
     vertical-align:middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #secP {
