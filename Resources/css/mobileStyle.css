@@ -50,6 +50,8 @@ html, body {
     float: left;
     margin-left: 5%;
     line-height: 35%;
+    margin-top: 25%;
+
 }
 
 #contentHolder >  #firstPage >#webBtn {
@@ -63,6 +65,7 @@ html, body {
     float: left;
     margin-left: 5%;
     line-height: 35%;
+    margin-top: 25%;
 }
 
 #contentHolder >  #firstPage >#contactBtn {
@@ -76,7 +79,7 @@ html, body {
     float: left;
     margin-left: 5%;
     line-height: 35%;
-    margin-bottom: 30px;
+    margin-top: 25%;
 }
 
 
