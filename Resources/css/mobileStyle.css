@@ -12,3 +12,27 @@ html, body {
     height: 100%;
 }
 
+#contentHolder > #firstPage {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+#contentHolder > #secondPage {
+    background-color:green;
+    height: 100%;
+    width: 100%;
+}
+
+#contentHolder > #thirdPage {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+#contentHolder > #forthPage {
+    background-color: purple;
+    height: 100%;
+    width: 100%;
+}
+
