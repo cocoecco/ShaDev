@@ -165,6 +165,7 @@ html, body {
     text-align: center;
     width: 90%;
     margin-left: 5%;
+    margin-top: 3px;
     text-decoration: underline;
 }
 
@@ -179,19 +180,13 @@ html, body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 #contentHolder > #forthPage {
-    background-color: purple;
     height: 100%;
     width: 100%;
+    vertical-align: middle;
+    color: rgba(255,255,255,1.0);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 22px;
+
 }
 
